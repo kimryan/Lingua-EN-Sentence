@@ -16,8 +16,8 @@ Module::Build -> new
  },
  requires =>
  {
-   perl                => 5.10,
- 	warnings            => 1.12
+   perl                => '5.10.0',
+ 	warnings            => '1.12'
  },
  meta_merge =>
  {
