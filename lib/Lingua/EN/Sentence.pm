@@ -40,7 +40,7 @@ a set of rules which decide when an end-of-sentence is justified and when it's a
 mistake. In case of a mistake, the end-of-sentence mark is removed.
 
 What are such mistakes? Cases of abbreviations, for example. I have a list of
-such abbreviations (Please see public globals belwo for a list), and more
+such abbreviations (Please see public globals below for a list), and more
 general rules (for example, the abbreviations 'i.e.' and '.e.g.' need not to be
 in the list as a special rule takes care of all single letter abbreviations).
 
