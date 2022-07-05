@@ -12,12 +12,12 @@ Module::Build -> new
  },
  configure_requires =>
  {
- 	 Module::Build => 0.3800,
+  Module::Build => 0.3800,
  },
  requires =>
  {
-   perl                => '5.10.0',
- 	warnings       => '1.06'
+  'perl'   => '5.10.0',
+  warnings => '1.06'
  },
  meta_merge =>
  {
@@ -25,5 +25,5 @@ Module::Build -> new
     {
             repository => 'https://github.com/kimryan/Lingua-EN-Sentence'
     }
-}
+  }
 ) -> create_build_script();
